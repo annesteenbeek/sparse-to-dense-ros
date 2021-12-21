@@ -1,0 +1,18 @@
+# args  | state (started, finished, failed)   
+-a resnet18 -d upproj -m rgbd -s 100 --sparsifier uar -b 100
+-a resnet18 -d upproj -m rgbd -s 200 --sparsifier uar -b 100
+-a resnet18 -d upproj -m rgbd -s 300 --sparsifier uar -b 100
+-a resnet18 -d upproj -m rgbd -s 400 --sparsifier uar -b 100
+
+-a resnet50 -d upproj -m rgbd -s 100 --sparsifier uar -b 100
+-a resnet50 -d upproj -m rgbd -s 200 --sparsifier uar -b 100
+-a resnet50 -d upproj -m rgbd -s 300 --sparsifier uar -b 100
+-a resnet50 -d upproj -m rgbd -s 400 --sparsifier uar -b 100
+
+-a resnet18 -d upproj -m rgbd -s 200 --sparsifier uar --variable-scale --epochs 20 -b 100
+-a resnet18 -d upproj -m rgbd -s 200 --sparsifier uar --variable-scale --variable-focal --epochs 20 -b 100
+
+-a resnet18 -d upproj -m rgbd -s 0 --sparsifier uar  -b 100
+-a resnet18 -d upproj -m rgbd -s 200 --sparsifier uar --crossTrain results/nyudepthv2.sparsifier=orb.samples=200.modality=rgbd.arch=resnet18.decoder=upproj.criterion=l1.lr=0.01.bs=100.pretrained=True.varFocus=False.varScale=False/model_best.pth.tar
+
+-a resnet18 -d upproj -m rgbd -s 400 --sparsifier orb 

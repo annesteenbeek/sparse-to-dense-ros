@@ -1,0 +1,16 @@
+h5py
+numpy
+# tqdm
+matplotlib
+imageio
+scikit-image
+opencv-python
+scipy==1.1.0
+# torch==1.0.1
+torch==1.1.0
+torchvision==0.2.2
+# pyyaml
+# rospkg
+# pycrypto
+# gnupg
+# netifaces

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sparse_to_dense</name>
+  <version>0.0.1</version>
+  <description>The sparse_to_dense package</description>
+  <maintainer email="annesteenbeek@too.com">Anne Steenbeek</maintainer>
+  <license>Closed</license>
+
+
+  <build_depend>rospy</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>

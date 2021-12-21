@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/anne/tello_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/anne/catkin_tmp/cget/include/**",
+        "/home/anne/catkin_tmp/cget/include/**",
+        "/home/anne/tello_ws/src/frontier_exploration/exploration_server/include/**",
+        "/home/anne/tello_ws/src/m-explore/explore/include/**",
+        "/home/anne/tello_ws/src/frontier_exploration/frontier_exploration/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/frontiers/include/**",
+        "/home/anne/tello_ws/src/la3dm/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/laser_to_free_points_cloud/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/launch_options/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/lazy_theta_star/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/dependencies/odometry_plugin_dependencies/mav_msgs/include/**",
+        "/home/anne/tello_ws/src/m-explore/map_merge/include/**",
+        "/home/anne/tello_ws/src/octomap_evaluation/include/**",
+        "/home/anne/tello_ws/src/frontier_exploration/polygon_layer/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/dependencies/odometry_plugin_dependencies/rotors_control/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/dependencies/odometry_plugin_dependencies/rotors_gazebo_plugins/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/rviz_interface/include/**",
+        "/home/anne/tello_ws/src/sjtu-drone/include/**",
+        "/home/anne/tello_ws/src/FlyingOctomap_code/thrun/include/**",
+        "/home/anne/tello_ws/src/uav_abstraction_layer/include/**",
+        "/home/anne/tello_ws/src/upat_follower/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
